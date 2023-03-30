@@ -1,5 +1,6 @@
 # AbuseIPDB-to-Neo4j-ES
 Proyecto que utiliza la API de AbuseIPDB para extraer información de IPs que hayan realizado algún tipo de ataque en los últimos 90 días, generando un archivo CSV con las IPs, las fechas de los ataques y las categorías correspondientes. Este archivo puede ser cargado posteriormente en Neo4j para generar un diagrama de grafos.
+To read the project in English go to https://github.com/gonzabaci/AbuseIPDB-to-Neo4j-EN
 # Contenido
 * in.txt: Archivo de texto donde se deben ingresar un máximo de 100 direcciones IP, una debajo de la otra.
 * main.py: Script en Python que permite conectar con la API de AbuseIPDB.
@@ -11,7 +12,7 @@ Proyecto que utiliza la API de AbuseIPDB para extraer información de IPs que ha
 * Neo4j
 * API Key de AbuseIPDB
 
-# Instalación y uso
+# Instalación y uso (Windows)
 Estas instrucciones proporcionan una guía para descargar y ejecutar el script de extracción de datos, así como también para cargar los resultados en Neo4j. ¡Espero que te sean útiles!
 
 1. Clonar o descargar este repositorio.
