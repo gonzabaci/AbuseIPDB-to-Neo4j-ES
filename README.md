@@ -24,7 +24,7 @@ Estas instrucciones proporcionan una guía para descargar y ejecutar el script d
 7. Descargar e instalar Neo4j desde https://neo4j.com/download/.
 8. Ejecutar Neo4j y crear un nuevo proyecto. Seleccionar "New" y luego "Create project".
 9. Agregar una base de datos al proyecto haciendo clic en "Add" y luego en "Local DBMS". Ingresar un nombre y contraseña para la base de datos y hacer clic en "Create".
-10. Navegar a la carpeta "C:\Users\<user>\.Neo4jDesktop\relate-data\dbmss" y copiar el archivo csv "out.csv" dentro de la última base de datos creada, en la carpeta llamada "import". El path completo sería "C:\Users\<user>\.Neo4jDesktop\relate-data\dbmss\<your dbms>\import".
+10. Navegar a la carpeta ``` "C:\Users\<user>\.Neo4jDesktop\relate-data\dbmss" ``` y copiar el archivo csv "out.csv" dentro de la última base de datos creada, en la carpeta llamada "import". El path completo sería ``` "C:\Users\<user>\.Neo4jDesktop\relate-data\dbmss\<your dbms>\import" ```.
 11. Iniciar la base de datos desde Neo4j. Hacer clic en "open" para abrir la base de datos.
 12. Ejecutar el siguiente comando en la terminal de Neo4j:
 
